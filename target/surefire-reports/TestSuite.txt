@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.681 s <<< FAILURE! - in TestSuite
+rahulshettyacademy.TestDemo.titleCheck  Time elapsed: 0.149 s  <<< FAILURE!
+java.lang.RuntimeException: java.net.URISyntaxException: Illegal character in opaque part at index 6: https:\siron_AOveyK:1Wxze1uEcLRZrT4kQgxC@hub.browserstack.com\wd\hub
+	at rahulshettyacademy.TestDemo.titleCheck(TestDemo.java:22)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 6: https:\siron_AOveyK:1Wxze1uEcLRZrT4kQgxC@hub.browserstack.com\wd\hub
+	at rahulshettyacademy.TestDemo.titleCheck(TestDemo.java:22)
+
+rahulshettyacademy.TestDemo.titleCheck  Time elapsed: 0.149 s  <<< FAILURE!
+java.lang.RuntimeException: java.net.URISyntaxException: Illegal character in opaque part at index 6: https:\siron_AOveyK:1Wxze1uEcLRZrT4kQgxC@hub.browserstack.com\wd\hub
+	at rahulshettyacademy.TestDemo.titleCheck(TestDemo.java:22)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 6: https:\siron_AOveyK:1Wxze1uEcLRZrT4kQgxC@hub.browserstack.com\wd\hub
+	at rahulshettyacademy.TestDemo.titleCheck(TestDemo.java:22)
+
+rahulshettyacademy.TestDemo.titleCheck  Time elapsed: 0.149 s  <<< FAILURE!
+java.lang.RuntimeException: java.net.URISyntaxException: Illegal character in opaque part at index 6: https:\siron_AOveyK:1Wxze1uEcLRZrT4kQgxC@hub.browserstack.com\wd\hub
+	at rahulshettyacademy.TestDemo.titleCheck(TestDemo.java:22)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 6: https:\siron_AOveyK:1Wxze1uEcLRZrT4kQgxC@hub.browserstack.com\wd\hub
+	at rahulshettyacademy.TestDemo.titleCheck(TestDemo.java:22)
+
