@@ -3,6 +3,7 @@ package rahulshettyacademy;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -23,6 +24,7 @@ public class TestDemo {
 	
 	driver.get("https://rahulshettyacademy.com");
 	Assert.assertTrue(driver.getTitle().matches("Selenium, API Testing, Software Testing & More QA Tutorials  | Rahul Shetty Academy"));
+	//driver.findElement(By.id(accessKey)).click();
 	
 	
 	}
