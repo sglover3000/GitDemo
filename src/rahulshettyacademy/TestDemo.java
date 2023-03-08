@@ -26,6 +26,9 @@ public class TestDemo {
 	Assert.assertTrue(driver.getTitle().matches("Selenium, API Testing, Software Testing & More QA Tutorials  | Rahul Shetty Academy"));
 	//driver.findElement(By.id(accessKey)).click();
 	
+	driver.get("https://rahulshettyacademy.com");
+	Assert.assertTrue(driver.getTitle().matches("Selenium, API Testing, Software Testing & More QA Tutorials  | Rahul Shetty Academy"));
+	//driver.findElement(By.id(accessKey)).click();
 	
 	}
 }
